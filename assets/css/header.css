@@ -1,0 +1,39 @@
+header {
+    background-color: #8AAB93;
+    padding: 10px;
+}
+
+header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 3.5em;
+}
+
+nav {
+    width: 30%;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #CCC;
+}
