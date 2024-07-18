@@ -1,0 +1,73 @@
+.carousel {
+    margin: 0 auto;
+    height: 350px;
+}
+
+#news-courses {
+    margin-top: 3em;
+}
+
+.carousel img {
+    height: 100%;
+}
+
+.courses {
+    height: 100%;
+    margin-top: 16px;
+    background-color: #9AB8A2;
+    padding: 8px;
+}
+
+.courses a {
+    text-decoration: none;
+}
+
+.courses a h2 {
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.courses ul {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    list-style: none;
+}
+
+.courses ul li  {
+    width: 130px;
+    min-width: 130px;
+    margin: 0 8px;
+}
+
+.courses ul li a{
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: 500ms;
+}
+
+.courses ul li a img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.courses ul li a p {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 0px 0px 5px 5px ;
+}
+
+.courses ul li a:hover {
+    transform: scale(1.05);
+}
