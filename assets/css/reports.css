@@ -1,0 +1,55 @@
+.reports {
+    background-color: #9AB8A2;
+    color: #FFF;
+}
+
+.reports > .container{
+    width: 100%;
+    flex-direction: column;
+    padding: 1.5em;
+}
+
+.students-reports {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.student-information {
+    width: 55%;
+}
+
+.student-information h3 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.student-information p {
+    margin-bottom: 1em;
+}
+
+.student-media {
+    width: 40%;
+}
+
+.instagram-media {
+    height: 500px;
+}
+
+.student-media img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.student-media .edu-media {
+    height: 300px;
+}
+
+.students-reports:nth-child(odd) .student-information{
+    order: 1;
+}
+
+.students-reports:last-child {
+    border: none;
+}
