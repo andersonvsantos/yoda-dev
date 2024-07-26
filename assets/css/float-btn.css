@@ -1,0 +1,10 @@
+.float-btn a{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.float-btn a i {
+    font-size: 50px;
+    color: rgb(0, 184, 9);
+}

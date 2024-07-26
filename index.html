@@ -7,8 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/float-btn.css">
     <link rel="stylesheet" href="./assets/css/home-page.css">
     <link rel="stylesheet" href="./assets/css/about.css">
     <link rel="stylesheet" href="./assets/css/reports.css">
@@ -41,6 +43,11 @@
             </nav>
         </div>
     </header>
+    <div class="float-btn">
+        <a href="https://api.whatsapp.com/send?phone=%2B5511945950053&data=ARBioOMRMAusbXFIJPoccXXmfsQ0hsGGruGAWlMYU-yauY3LDS3mMBsSUGgTAgXY8qjgjUgWH3ojr-e2VV1NhMzKytELt7CIJPrQxt6epX0XOHYVtJL_0z_YBaMPQ5WGwEagHeTR0wHtSBeXXn_Q9PwrIA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3zumLU3OkMmMokoQVMR9Bg_V6wayNPlVHVg5z4t-itKprl42eUSFF4AiA">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
     <section id="news-courses">
         <div class="container">
             <div class="carousel">
@@ -267,12 +274,63 @@
         </div>
     </section>
     <section class="contact">
-        <form>
-
-        </form>
+        <div class="container">
+            <h2>Contato</h2>
+            <form class="form container">
+                <label for="name">Nome</label>
+                <input type="text" name="name" placeholder="Nome completo"/>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="exemplo@gmail.com"/>
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel" placeholder="(00) 0000-0000"/>
+                <label for="subject">Assunto</label>
+                <textarea name="subject" id="subject"></textarea>
+                <button type="submit" id="submit-form-btn">Enviar</button>
+            </form>
+        </div>
     </section>
-    <section class="address">
-
+    <section class="address-section">
+        <div class="container">
+            <div class="address-info container">
+                <address>
+                    R. dos Ferroviários, 11 - Vila Thomazina, Campo Limpo Paulista, São Paulo
+                </address>
+                <a href="tel:+5511945950053">11 94595-0053</a>
+                <div>
+                    <h4>Horários de atendimento:</h4>
+                    <p>Segunda a Sexta-feira das 10h as 20h</p>
+                    <p>Sábado das 8:30h as 12h</p>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.971128311635!2d-46.78861402581461!3d-23.20772277904445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cedf1ba924afeb%3A0x1956edd59b6afac2!2sYODA%20Ensina%20-%20Neg%C3%B3cios%20e%20Idiomas!5e0!3m2!1spt-BR!2sbr!4v1722027089271!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="partners-social container">
+                <h3>Parceiros:</h3>
+                <div class="partners">
+                    <a href="https://agieer.com.br/">
+                        <img src="./assets/img/partners/agieerLogo.png" alt="Logo Agieer"/>
+                    </a>
+                    <a href="https://www.uninove.br/unidades/polo/polo-campo-limpo-paulista">
+                        <img src="./assets/img/partners/uninoveLogo.png" alt="Logo Uninove"/>
+                    </a>
+                    <a href="https://www.conexaowork.com.br/">
+                        <img src="./assets/img/partners/conexaoWorkLogo.jpg" alt="Logo Conexão Work"/>
+                    </a>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/profile.php?id=100083469497762">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/yodaensina/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=%2B5511945950053&data=ARBioOMRMAusbXFIJPoccXXmfsQ0hsGGruGAWlMYU-yauY3LDS3mMBsSUGgTAgXY8qjgjUgWH3ojr-e2VV1NhMzKytELt7CIJPrQxt6epX0XOHYVtJL_0z_YBaMPQ5WGwEagHeTR0wHtSBeXXn_Q9PwrIA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3zumLU3OkMmMokoQVMR9Bg_V6wayNPlVHVg5z4t-itKprl42eUSFF4AiA">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <p>
