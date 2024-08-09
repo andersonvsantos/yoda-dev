@@ -6,6 +6,15 @@
     padding: 0 50px;
 }
 
+.carousel {
+    height: 350px;
+}
+
+.carousel img {
+    height: 350px;
+}
+
+
 .carousel-control-prev, .carousel-control-next {
     filter: invert(70%);
 }
