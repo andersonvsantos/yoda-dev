@@ -2,14 +2,6 @@
     margin-top: 2em;
 }
 
-.carousel {
-    height: 350px;
-}
-
-.carousel img {
-    height: 350px;
-}
-
 .carousel-control-prev, .carousel-control-next {
     filter: invert(70%);
 }
