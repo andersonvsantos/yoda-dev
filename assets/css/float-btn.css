@@ -1,10 +1,13 @@
 .float-btn a{
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
 }
 
 .float-btn a i {
     font-size: 50px;
-    color: rgb(0, 184, 9);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.041);
+    border-radius: 50%;
 }
