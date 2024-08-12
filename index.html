@@ -312,11 +312,12 @@
     <section class="contact">
         <div class="container">
             <h2>Contato</h2>
-            <form class="form container">
+            <form class="form container"action="https://formsubmit.co/andersonvs.ju@gmail.com" method="POST">
                 <label for="name">Nome</label>
-                <input type="text" name="name" placeholder="Nome completo"/>
+                <input type="text" name="name" placeholder="Nome completo" required/>
                 <label for="email">Email</label>
-                <input type="email" name="email" placeholder="exemplo@gmail.com"/>
+                <input type="email" name="email" placeholder="exemplo@gmail.com" required/>
+                <input type="hidden" name="_next" value="https://andersonvsantos.github.io/yoda-dev/thanks.html">
                 <label for="tel">Telefone</label>
                 <input type="tel" name="tel" placeholder="(00) 0000-0000"/>
                 <label for="subject">Assunto</label>
