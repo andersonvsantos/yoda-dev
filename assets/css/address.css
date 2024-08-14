@@ -75,3 +75,28 @@
 .fa-instagram:hover {
     color: rgb(255, 15, 243);
 }
+
+@media screen and (max-width:600px) {
+    .address-section > .container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .address-info {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .map {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .partners-social{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:950px) {
+
+}

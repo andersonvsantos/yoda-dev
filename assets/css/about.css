@@ -31,3 +31,22 @@
 .about-content h3 {
     margin: 10px 0;
 }
+
+@media screen and (max-width:950px) {
+    .about-content {
+        display: block;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .about-content img {
+        width: 100%;
+        margin-bottom: 3em;
+        transform: rotate(0);
+    }
+
+    .about-text {
+        width: 100%;
+    }
+}

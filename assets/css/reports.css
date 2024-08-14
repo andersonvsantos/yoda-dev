@@ -53,3 +53,18 @@
 .students-reports:last-child {
     border: none;
 }
+
+@media screen and (max-width:600px) {
+    .students-reports {
+        display: block;
+    }
+
+    .students-reports.container,
+    .student-media {
+        width: 100%;
+    }
+
+    .student-information {
+        width: 100%;
+    }
+}

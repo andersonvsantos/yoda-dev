@@ -21,29 +21,33 @@
     <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 <body>
-    <header>
+    <header class="navbar navbar-expand-md sticky-top" id="header">
         <div class="container">
-            <a href="./index.html">
-                <img src="./assets/img/logo/yodaLogo.png" alt="Logo Yoda Ensina">
-            </a>
-            <nav>
-                <ul>
-                    <li>
+            <h1>
+                <img src="./assets/img/logo/yodaLogo.png" alt="">
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex justify-content-center">
+                    <li class="nav-item fw-bold pe-4">
                         <a href="./cursos.html">Cursos</a>
                     </li>
-                    <li>
+                    <li class="nav-item fw-bold pe-4">
                         <a href="#sobre">Sobre</a>
                     </li>
-                    <li>
+                    <li class="nav-item fw-bold pe-4">
                         <a href="./equipe.html">Equipe</a>
                     </li>
-                    <li>
+                    <li class="nav-item fw-bold pe-4">
                         <a href="./contato.html">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
+
     <div class="float-btn">
         <a href="https://api.whatsapp.com/send?phone=%2B5511945950053&data=ARBioOMRMAusbXFIJPoccXXmfsQ0hsGGruGAWlMYU-yauY3LDS3mMBsSUGgTAgXY8qjgjUgWH3ojr-e2VV1NhMzKytELt7CIJPrQxt6epX0XOHYVtJL_0z_YBaMPQ5WGwEagHeTR0wHtSBeXXn_Q9PwrIA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3zumLU3OkMmMokoQVMR9Bg_V6wayNPlVHVg5z4t-itKprl42eUSFF4AiA">
             <i class="fab fa-whatsapp"></i>
@@ -116,7 +120,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="" id="sobre">
                         <img src="./assets/img/courses/customized-courses.png" alt="Administração"/>
                         <p>
                             Costumizados

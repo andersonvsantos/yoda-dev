@@ -58,3 +58,37 @@
 .project-content:last-child .polaroid {
     margin: 0;
 }
+
+@media screen and (max-width:600px) {
+    .social-projects{
+        margin-bottom: 1.5em;
+    }
+
+    .project-content {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .project-text h3 {
+        margin: 1em 0;
+    }
+
+    .project-text {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .project-media {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .polaroid {
+        transform: rotate(0);
+        width: 100%;
+    }
+}
