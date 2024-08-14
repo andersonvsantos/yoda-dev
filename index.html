@@ -54,32 +54,28 @@
         </a>
     </div>
     <section id="news-courses">
-        <div class="container carousel-container justify-content-center">
-            <div data-bs-ride="carousel" id="homepage-carousel" class="carousel slide d-flex justify-content-center">
-                <div class="carousel-inner">
-                    <div>
-                        <div data-bs-interval="2000" class="carousel-item active">
-                            <img src="./assets/img/carrosel/comece_seus_estudos.png" alt="">
-                        </div>
-                        <div data-bs-interval="2000" class="carousel-item">
-                            <img src="./assets/img/carrosel/alunos_ganhadores.png" alt="">
-                        </div>
-                        <div data-bs-interval="2000" class="carousel-item">
-                            <img src="./assets/img/carrosel//ensino_de_qualidade.png" alt="">
-                        </div>
-                    </div>
-                    <button data-bs-target="#homepage-carousel" data-bs-slide="prev" class="carousel-control-prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button data-bs-target="#homepage-carousel" data-bs-slide="next" class="carousel-control-next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img class="d-block w-100" src="./assets/img/carrosel/alunos_ganhadores.png" alt="">
                 </div>
-                <div class="carousel-indicators">
-                    <button data-bs-target="#homepage-carousel" data-bs-slide-to="0" class="active" type="button"></button>
-                    <button data-bs-target="#homepage-carousel" data-bs-slide-to="1" type="button"></button>
-                    <button data-bs-target="#homepage-carousel" data-bs-slide-to="2" type="button"></button>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="./assets/img/carrosel/comece_seus_estudos.png" alt="">
                 </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="./assets/img/carrosel/ensino_de_qualidade.png" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
             </div>
         </div>
         <div class="courses">
