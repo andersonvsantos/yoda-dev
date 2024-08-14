@@ -80,6 +80,10 @@
 
 
 @media screen and (max-width:600px) {
+    .carousel-item {
+        padding: 0 12%;
+    }
+
     .courses ul {
         padding-bottom: 0;
     }
